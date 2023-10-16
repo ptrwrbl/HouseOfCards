@@ -8,25 +8,18 @@
 import SwiftUI
 
 struct ContentView : View {
+    // var viewModel: MemoGameVM
     let emojis = ["😈", "👻", "️☠️", "🎃", "🕷️", "🕸️", "😱", "🍭", "💀"]
     @State var cardCount = 4
+
     var body: some View {
 
       VStack {
          ScrollView {
             cards
          }
-         cardsCountAdjuster
       }
       .padding()
-   }
-
-   var cardsCountAdjuster : some View {
-      HStack {
-         cardAdder
-         Spacer()
-         cardRemover
-      }
    }
 
    var cards : some View {
@@ -37,22 +30,6 @@ struct ContentView : View {
          }
       }
       .foregroundColor(.orange)
-   }
-
-   var cardAdder : some View {
-      Button("Add card") {
-         if cardCount < emojis.count {
-            cardCount += 1
-         }
-      }
-   }
-
-   var cardRemover : some View {
-      Button("Remove card") {
-         if cardCount > 1 {
-            cardCount -= 1
-         }
-      }
    }
 }
 

@@ -15,6 +15,8 @@
 		AE85F0EA2ADDDBE90057C9D4 /* HouseOfCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85F0E92ADDDBE90057C9D4 /* HouseOfCardsUITests.swift */; };
 		AE85F0EC2ADDDBE90057C9D4 /* HouseOfCardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85F0EB2ADDDBE90057C9D4 /* HouseOfCardsUITestsLaunchTests.swift */; };
 		AE85F0F92ADDE0730057C9D4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85F0F82ADDE0730057C9D4 /* CardView.swift */; };
+		AE85F0FD2ADDE5FA0057C9D4 /* MemoGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85F0FC2ADDE5FA0057C9D4 /* MemoGame.swift */; };
+		AE85F0FF2ADDE6500057C9D4 /* MemoGameVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85F0FE2ADDE6500057C9D4 /* MemoGameVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		AE85F0E92ADDDBE90057C9D4 /* HouseOfCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseOfCardsUITests.swift; sourceTree = "<group>"; };
 		AE85F0EB2ADDDBE90057C9D4 /* HouseOfCardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseOfCardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AE85F0F82ADDE0730057C9D4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		AE85F0FC2ADDE5FA0057C9D4 /* MemoGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoGame.swift; sourceTree = "<group>"; };
+		AE85F0FE2ADDE6500057C9D4 /* MemoGameVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoGameVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				AE85F0F82ADDE0730057C9D4 /* CardView.swift */,
 				AE85F0D22ADDDBE60057C9D4 /* Assets.xcassets */,
 				AE85F0D42ADDDBE60057C9D4 /* Preview Content */,
+				AE85F0FC2ADDE5FA0057C9D4 /* MemoGame.swift */,
+				AE85F0FE2ADDE6500057C9D4 /* MemoGameVM.swift */,
 			);
 			path = HouseOfCards;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE85F0D12ADDDBD00057C9D4 /* ContentView.swift in Sources */,
+				AE85F0FF2ADDE6500057C9D4 /* MemoGameVM.swift in Sources */,
+				AE85F0FD2ADDE5FA0057C9D4 /* MemoGame.swift in Sources */,
 				AE85F0F92ADDE0730057C9D4 /* CardView.swift in Sources */,
 				AE85F0CF2ADDDBD00057C9D4 /* HouseOfCardsApp.swift in Sources */,
 			);
