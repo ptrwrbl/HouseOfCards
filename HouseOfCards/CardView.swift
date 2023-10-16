@@ -17,7 +17,7 @@ struct CardView : View {
          if isFaceUp {
             base.fill(.white)
             base.strokeBorder(lineWidth: 3)
-            Text("🕷️").font(.largeTitle)
+            Text(content).font(.largeTitle)
          }
          else {
             base.fill()
