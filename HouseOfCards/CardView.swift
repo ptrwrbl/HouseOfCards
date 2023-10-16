@@ -7,12 +7,28 @@
 
 import SwiftUI
 
-struct CardView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+struct CardView : View {
+   let content: String
+   @State var isFaceUp : Bool = false
+
+      var body: some View {
+      ZStack {
+         let base = RoundedRectangle(cornerRadius: 12)
+         if isFaceUp {
+            base.fill(.white)
+            base.strokeBorder(lineWidth: 3)
+            Text("🕷️").font(.largeTitle)
+         }
+         else {
+            base.fill()
+         }
+      }
+      .onTapGesture(perform: {
+         isFaceUp.toggle()
+      })
+   }
 }
 
 #Preview {
-    CardView()
+    CardView(content: "♥️")
 }
