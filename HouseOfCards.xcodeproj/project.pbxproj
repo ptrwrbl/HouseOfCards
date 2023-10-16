@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE85F0CF2ADDDBD00057C9D4 /* HouseOfCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85F0CE2ADDDBD00057C9D4 /* HouseOfCardsApp.swift */; };
+		AE85F0D12ADDDBD00057C9D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85F0D02ADDDBD00057C9D4 /* ContentView.swift */; };
+		AE85F0D32ADDDBE60057C9D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE85F0D22ADDDBE60057C9D4 /* Assets.xcassets */; };
+		AE85F0D62ADDDBE60057C9D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE85F0D52ADDDBE60057C9D4 /* Preview Assets.xcassets */; };
+		AE85F0E02ADDDBE90057C9D4 /* HouseOfCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85F0DF2ADDDBE90057C9D4 /* HouseOfCardsTests.swift */; };
+		AE85F0EA2ADDDBE90057C9D4 /* HouseOfCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85F0E92ADDDBE90057C9D4 /* HouseOfCardsUITests.swift */; };
+		AE85F0EC2ADDDBE90057C9D4 /* HouseOfCardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85F0EB2ADDDBE90057C9D4 /* HouseOfCardsUITestsLaunchTests.swift */; };
+		AE85F0F92ADDE0730057C9D4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85F0F82ADDE0730057C9D4 /* CardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE85F0DC2ADDDBE90057C9D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE85F0C32ADDDBCE0057C9D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE85F0CA2ADDDBCF0057C9D4;
+			remoteInfo = HouseOfCards;
+		};
+		AE85F0E62ADDDBE90057C9D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE85F0C32ADDDBCE0057C9D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE85F0CA2ADDDBCF0057C9D4;
+			remoteInfo = HouseOfCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE85F0CB2ADDDBCF0057C9D4 /* HouseOfCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseOfCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE85F0CE2ADDDBD00057C9D4 /* HouseOfCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseOfCardsApp.swift; sourceTree = "<group>"; };
+		AE85F0D02ADDDBD00057C9D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE85F0D22ADDDBE60057C9D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE85F0D52ADDDBE60057C9D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE85F0DB2ADDDBE90057C9D4 /* HouseOfCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseOfCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE85F0DF2ADDDBE90057C9D4 /* HouseOfCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseOfCardsTests.swift; sourceTree = "<group>"; };
+		AE85F0E52ADDDBE90057C9D4 /* HouseOfCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseOfCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE85F0E92ADDDBE90057C9D4 /* HouseOfCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseOfCardsUITests.swift; sourceTree = "<group>"; };
+		AE85F0EB2ADDDBE90057C9D4 /* HouseOfCardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseOfCardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AE85F0F82ADDE0730057C9D4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE85F0C82ADDDBCF0057C9D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85F0D82ADDDBE90057C9D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85F0E22ADDDBE90057C9D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE85F0C22ADDDBCE0057C9D4 = {
+			isa = PBXGroup;
+			children = (
+				AE85F0CD2ADDDBCF0057C9D4 /* HouseOfCards */,
+				AE85F0DE2ADDDBE90057C9D4 /* HouseOfCardsTests */,
+				AE85F0E82ADDDBE90057C9D4 /* HouseOfCardsUITests */,
+				AE85F0CC2ADDDBCF0057C9D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE85F0CC2ADDDBCF0057C9D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE85F0CB2ADDDBCF0057C9D4 /* HouseOfCards.app */,
+				AE85F0DB2ADDDBE90057C9D4 /* HouseOfCardsTests.xctest */,
+				AE85F0E52ADDDBE90057C9D4 /* HouseOfCardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE85F0CD2ADDDBCF0057C9D4 /* HouseOfCards */ = {
+			isa = PBXGroup;
+			children = (
+				AE85F0CE2ADDDBD00057C9D4 /* HouseOfCardsApp.swift */,
+				AE85F0D02ADDDBD00057C9D4 /* ContentView.swift */,
+				AE85F0F82ADDE0730057C9D4 /* CardView.swift */,
+				AE85F0D22ADDDBE60057C9D4 /* Assets.xcassets */,
+				AE85F0D42ADDDBE60057C9D4 /* Preview Content */,
+			);
+			path = HouseOfCards;
+			sourceTree = "<group>";
+		};
+		AE85F0D42ADDDBE60057C9D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE85F0D52ADDDBE60057C9D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE85F0DE2ADDDBE90057C9D4 /* HouseOfCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE85F0DF2ADDDBE90057C9D4 /* HouseOfCardsTests.swift */,
+			);
+			path = HouseOfCardsTests;
+			sourceTree = "<group>";
+		};
+		AE85F0E82ADDDBE90057C9D4 /* HouseOfCardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE85F0E92ADDDBE90057C9D4 /* HouseOfCardsUITests.swift */,
+				AE85F0EB2ADDDBE90057C9D4 /* HouseOfCardsUITestsLaunchTests.swift */,
+			);
+			path = HouseOfCardsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE85F0CA2ADDDBCF0057C9D4 /* HouseOfCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE85F0EF2ADDDBE90057C9D4 /* Build configuration list for PBXNativeTarget "HouseOfCards" */;
+			buildPhases = (
+				AE85F0C72ADDDBCF0057C9D4 /* Sources */,
+				AE85F0C82ADDDBCF0057C9D4 /* Frameworks */,
+				AE85F0C92ADDDBCF0057C9D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HouseOfCards;
+			productName = HouseOfCards;
+			productReference = AE85F0CB2ADDDBCF0057C9D4 /* HouseOfCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE85F0DA2ADDDBE90057C9D4 /* HouseOfCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE85F0F22ADDDBE90057C9D4 /* Build configuration list for PBXNativeTarget "HouseOfCardsTests" */;
+			buildPhases = (
+				AE85F0D72ADDDBE90057C9D4 /* Sources */,
+				AE85F0D82ADDDBE90057C9D4 /* Frameworks */,
+				AE85F0D92ADDDBE90057C9D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE85F0DD2ADDDBE90057C9D4 /* PBXTargetDependency */,
+			);
+			name = HouseOfCardsTests;
+			productName = HouseOfCardsTests;
+			productReference = AE85F0DB2ADDDBE90057C9D4 /* HouseOfCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE85F0E42ADDDBE90057C9D4 /* HouseOfCardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE85F0F52ADDDBE90057C9D4 /* Build configuration list for PBXNativeTarget "HouseOfCardsUITests" */;
+			buildPhases = (
+				AE85F0E12ADDDBE90057C9D4 /* Sources */,
+				AE85F0E22ADDDBE90057C9D4 /* Frameworks */,
+				AE85F0E32ADDDBE90057C9D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE85F0E72ADDDBE90057C9D4 /* PBXTargetDependency */,
+			);
+			name = HouseOfCardsUITests;
+			productName = HouseOfCardsUITests;
+			productReference = AE85F0E52ADDDBE90057C9D4 /* HouseOfCardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE85F0C32ADDDBCE0057C9D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AE85F0CA2ADDDBCF0057C9D4 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					AE85F0DA2ADDDBE90057C9D4 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AE85F0CA2ADDDBCF0057C9D4;
+					};
+					AE85F0E42ADDDBE90057C9D4 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AE85F0CA2ADDDBCF0057C9D4;
+					};
+				};
+			};
+			buildConfigurationList = AE85F0C62ADDDBCE0057C9D4 /* Build configuration list for PBXProject "HouseOfCards" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE85F0C22ADDDBCE0057C9D4;
+			productRefGroup = AE85F0CC2ADDDBCF0057C9D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE85F0CA2ADDDBCF0057C9D4 /* HouseOfCards */,
+				AE85F0DA2ADDDBE90057C9D4 /* HouseOfCardsTests */,
+				AE85F0E42ADDDBE90057C9D4 /* HouseOfCardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE85F0C92ADDDBCF0057C9D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE85F0D62ADDDBE60057C9D4 /* Preview Assets.xcassets in Resources */,
+				AE85F0D32ADDDBE60057C9D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85F0D92ADDDBE90057C9D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85F0E32ADDDBE90057C9D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE85F0C72ADDDBCF0057C9D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE85F0D12ADDDBD00057C9D4 /* ContentView.swift in Sources */,
+				AE85F0F92ADDE0730057C9D4 /* CardView.swift in Sources */,
+				AE85F0CF2ADDDBD00057C9D4 /* HouseOfCardsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85F0D72ADDDBE90057C9D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE85F0E02ADDDBE90057C9D4 /* HouseOfCardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE85F0E12ADDDBE90057C9D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE85F0EC2ADDDBE90057C9D4 /* HouseOfCardsUITestsLaunchTests.swift in Sources */,
+				AE85F0EA2ADDDBE90057C9D4 /* HouseOfCardsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE85F0DD2ADDDBE90057C9D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE85F0CA2ADDDBCF0057C9D4 /* HouseOfCards */;
+			targetProxy = AE85F0DC2ADDDBE90057C9D4 /* PBXContainerItemProxy */;
+		};
+		AE85F0E72ADDDBE90057C9D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE85F0CA2ADDDBCF0057C9D4 /* HouseOfCards */;
+			targetProxy = AE85F0E62ADDDBE90057C9D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE85F0ED2ADDDBE90057C9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE85F0EE2ADDDBE90057C9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE85F0F02ADDDBE90057C9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HouseOfCards/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pollub.cs.ptrwrbl.HouseOfCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE85F0F12ADDDBE90057C9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HouseOfCards/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pollub.cs.ptrwrbl.HouseOfCards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE85F0F32ADDDBE90057C9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pollub.cs.ptrwrbl.HouseOfCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HouseOfCards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HouseOfCards";
+			};
+			name = Debug;
+		};
+		AE85F0F42ADDDBE90057C9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pollub.cs.ptrwrbl.HouseOfCardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HouseOfCards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HouseOfCards";
+			};
+			name = Release;
+		};
+		AE85F0F62ADDDBE90057C9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pollub.cs.ptrwrbl.HouseOfCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HouseOfCards;
+			};
+			name = Debug;
+		};
+		AE85F0F72ADDDBE90057C9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pollub.cs.ptrwrbl.HouseOfCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HouseOfCards;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE85F0C62ADDDBCE0057C9D4 /* Build configuration list for PBXProject "HouseOfCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE85F0ED2ADDDBE90057C9D4 /* Debug */,
+				AE85F0EE2ADDDBE90057C9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE85F0EF2ADDDBE90057C9D4 /* Build configuration list for PBXNativeTarget "HouseOfCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE85F0F02ADDDBE90057C9D4 /* Debug */,
+				AE85F0F12ADDDBE90057C9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE85F0F22ADDDBE90057C9D4 /* Build configuration list for PBXNativeTarget "HouseOfCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE85F0F32ADDDBE90057C9D4 /* Debug */,
+				AE85F0F42ADDDBE90057C9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE85F0F52ADDDBE90057C9D4 /* Build configuration list for PBXNativeTarget "HouseOfCardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE85F0F62ADDDBE90057C9D4 /* Debug */,
+				AE85F0F72ADDDBE90057C9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE85F0C32ADDDBCE0057C9D4 /* Project object */;
+}
