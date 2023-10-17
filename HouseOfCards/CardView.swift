@@ -11,12 +11,12 @@ struct CardView : View {
    let content: String
    @State var isFaceUp : Bool = false
 
-      var body: some View {
+    var body: some View {
       ZStack {
          let base = RoundedRectangle(cornerRadius: 12)
          Group {
             base.fill(.white)
-            base.strokeBorder(lineWidth: 3)
+            base.strokeBorder(lineWidth: 2)
             Text(content).font(.largeTitle)
          }
          .opacity(isFaceUp ? 1 : 0)
