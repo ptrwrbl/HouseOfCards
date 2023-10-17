@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FEBE4252ADEDCBA008ADF45 /* ThemeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEBE4242ADEDCBA008ADF45 /* ThemeButtonView.swift */; };
 		AE85F0CF2ADDDBD00057C9D4 /* HouseOfCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85F0CE2ADDDBD00057C9D4 /* HouseOfCardsApp.swift */; };
 		AE85F0D12ADDDBD00057C9D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85F0D02ADDDBD00057C9D4 /* ContentView.swift */; };
 		AE85F0D32ADDDBE60057C9D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE85F0D22ADDDBE60057C9D4 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FEBE4242ADEDCBA008ADF45 /* ThemeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeButtonView.swift; sourceTree = "<group>"; };
 		AE85F0CB2ADDDBCF0057C9D4 /* HouseOfCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseOfCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE85F0CE2ADDDBD00057C9D4 /* HouseOfCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseOfCardsApp.swift; sourceTree = "<group>"; };
 		AE85F0D02ADDDBD00057C9D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				AE85F0D42ADDDBE60057C9D4 /* Preview Content */,
 				AE85F0FC2ADDE5FA0057C9D4 /* MemoGame.swift */,
 				AE85F0FE2ADDE6500057C9D4 /* MemoGameVM.swift */,
+				3FEBE4242ADEDCBA008ADF45 /* ThemeButtonView.swift */,
 			);
 			path = HouseOfCards;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				AE85F0D12ADDDBD00057C9D4 /* ContentView.swift in Sources */,
 				AE85F0FF2ADDE6500057C9D4 /* MemoGameVM.swift in Sources */,
+				3FEBE4252ADEDCBA008ADF45 /* ThemeButtonView.swift in Sources */,
 				AE85F0FD2ADDE5FA0057C9D4 /* MemoGame.swift in Sources */,
 				AE85F0F92ADDE0730057C9D4 /* CardView.swift in Sources */,
 				AE85F0CF2ADDDBD00057C9D4 /* HouseOfCardsApp.swift in Sources */,
