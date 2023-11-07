@@ -8,23 +8,24 @@
 import SwiftUI
 
 struct ThemeButtonView: View {
+    @Binding var theme: Int
+    @Binding var count: Int
+    let color: Color
     let icon: String
-    let content: String
-    let onChange: (String)->Void
+    let desiredTheme: Int
+    let desiredPairs: Int
     
     var body: some View {
         Button {
-            
+            theme = desiredTheme
+            count = 2 * desiredPairs
         } label: {
             VStack {
                 Image(systemName: icon)
                     .imageScale(.large)
-                Text(content)
+                Text("Motyw " + (String)(desiredTheme + 1))
                     .font(.caption)
             }
-        }
-        .onTapGesture{
-            onChange(content)
         }
     }
     
@@ -32,5 +33,5 @@ struct ThemeButtonView: View {
 }
 
 #Preview {
-    ThemeButtonView(icon: "globe", content: "Motyw", onChange: {desTheme in})
+    ThemeButtonView(theme: .constant(0), count: .constant(2), color: .red,  icon: "globe", desiredTheme: 1, desiredPairs: 2)
 }

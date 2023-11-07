@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView : View {
-    let emojis = ["😈", "👻", "️☠️", "🎃", "🕷️", "🕸️", "😱", "🍭", "💀", "😈", "👻", "️☠️", "🎃", "🕷️", "🕸️", "😱", "🍭", "💀"]
+    var emojis: [[String]] = [
+        ["🎑", "🌇", "🌠", "🌉"],
+        ["🐶", "🐱", "🐭", "🦊", "🐼", "🐨", "🦁", "🐸"],
+        ["😈", "👻", "️☠️", "🎃", "🕷️", "🕸️"]
+    ]
     
-    @State var theme : Color = Color(.blue)
+    var colors: [Color] = [Color.blue, Color.green, Color.orange]
+    var icons: [String] = ["repeat", "heart", "star"]
+    @State var theme = 0
     @State var cardCount = 8
      
     var body: some View {
@@ -28,50 +34,52 @@ struct ContentView : View {
 
     
     var cardDisplay : some View {
-        LazyVGrid(columns: [GridItem(.adaptive(minimum: 85))]){
+        let shuffledEmojis: [String] = shuffleCards()
+        
+        return LazyVGrid(columns: [GridItem(.adaptive(minimum: 70))]){
             ForEach(0..<cardCount, id: \.self) { index in
-                CardView(content: emojis[index])
+                CardView(content: shuffledEmojis[index])
                 .aspectRatio(2/3, contentMode: .fit)
             }
         }
-        .foregroundColor(theme)
+        .foregroundColor(colors[theme])
     }
     
     var themeSelector : some View {
-        LazyVGrid(columns: [GridItem(.adaptive(minimum: 80))]){
-            themeSelector1
-            themeSelector2
-            themeSelector3
+        LazyVGrid(columns: [GridItem(.adaptive(minimum: 85))]){
+            ForEach(0..<colors.count, id: \.self) { value in
+                ThemeButtonView(theme: $theme, count: $cardCount, color: colors[value], icon: icons[value], desiredTheme: value, desiredPairs: emojis[value].count)
+            }
         }
-        .foregroundColor(theme)
+        .foregroundColor(colors[theme])
     }
     
-    var themeSelector1 : some View {
-        ThemeButtonView(icon: "repeat", content: "Motyw 1", onChange: changeTheme)
+    /* var themeSelector : some View {
+        LazyVGrid(columns: [GridItem(.adaptive(minimum: 85))]){
+            theme1
+            theme2
+            theme3
+        }
+        .foregroundColor(colors[theme])
     }
     
-    var themeSelector2 : some View {
-        ThemeButtonView(icon: "star", content: "Motyw 2", onChange: changeTheme)
-    }
-        
-    var themeSelector3 : some View {
-        ThemeButtonView(icon: "heart", content: "Motyw 3", onChange: changeTheme)
+    var theme1 : some View {
+        ThemeButtonView(theme: $theme, count: $cardCount, color: colors[0], icon: icons[0], desiredTheme: 0, desiredPairs: emojis[0].count)
     }
     
-    func changeTheme(_ desiredTheme: String) {
-        if desiredTheme == "Motyw 1" {
-            theme = Color(.blue)
-            cardCount = 8
-        }
-        if desiredTheme == "Motyw 2" {
-            theme = Color(.orange)
-            cardCount = 16
-        }
-        if desiredTheme == "Motyw 3" {
-            theme = Color(.green)
-            cardCount = 12
-        }
+    var theme2 : some View {
+        ThemeButtonView(theme: $theme, count: $cardCount, color: colors[1], icon: icons[1], desiredTheme: 1, desiredPairs: emojis[1].count)
     }
+    
+    var theme3 : some View {
+        ThemeButtonView(theme: $theme, count: $cardCount, color: colors[2], icon: icons[2], desiredTheme: 2, desiredPairs: emojis[2].count)
+    } */
+    
+    func shuffleCards() -> [String] {
+        let resultSet: [String] = emojis[theme] + emojis[theme]
+        return resultSet.shuffled()
+    }
+    
     /* commented for Lab4
      var cardsCountAdjuster : some View {
         HStack {
