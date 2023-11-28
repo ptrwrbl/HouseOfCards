@@ -1,13 +1,8 @@
-//
-//  ThemeButtonView.swift
-//  HouseOfCards
-//
-//  Created by student on 17.10.2023.
-//
-
 import SwiftUI
 
 struct ThemeButtonView: View {
+    @ObservedObject var viewModel: MemoGameViewModel
+    
     @Binding var theme: Int
     @Binding var count: Int
     let color: Color
@@ -28,10 +23,4 @@ struct ThemeButtonView: View {
             }
         }
     }
-    
-    
-}
-
-#Preview {
-    ThemeButtonView(theme: .constant(0), count: .constant(2), color: .red,  icon: "globe", desiredTheme: 1, desiredPairs: 2)
 }
