@@ -11,10 +11,12 @@ struct ContentView : View {
             Text("Memo")
                 .font(.largeTitle)
             ScrollView {
-                cardDisplay(elems: viewModel, minWidthSize: 80).animation(.default, value: viewModel.cards)
+                cardDisplay(elems: viewModel, minWidthSize: 80)
             }
-            Button("SHUFFLE") {
-                viewModel.shuffle()
+            HStack {
+                score
+                Spacer()
+                shuffle
             }
             .padding()
             .foregroundColor(viewModel.currentTheme)
@@ -23,6 +25,18 @@ struct ContentView : View {
         .padding()
     }
 
+    var score : some View {
+        return Text("Score: \(viewModel.score)")
+            .font(.largeTitle)
+    }
+    
+    var shuffle : some View {
+        return Button("SHUFFLE") {
+            withAnimation(.easeInOut(duration: 2)) {
+                viewModel.shuffle()
+            }
+        }
+    }
     
     func cardDisplay(elems: MemoGameViewModel, minWidthSize: CGFloat) -> some View {
         return LazyVGrid(columns: [GridItem(.adaptive(minimum: minWidthSize), spacing: 0)], spacing: 0){

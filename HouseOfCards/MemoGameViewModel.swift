@@ -30,15 +30,25 @@ class MemoGameViewModel : ObservableObject {
     var cards: Array<MemoGameModel<String>.Card> {
         return model.cards
     }
+    
+    
+    
+    var score: Int {
+        model.score
+    }
 
     func choose(_ card: MemoGameModel<String>.Card) {
-        model.choose(card)
+        withAnimation {
+            model.choose(card)
+        }
     }
     
     func changeTheme(_ newTheme: Int, color: Color) {
         currentTheme = color
         model = MemoGameViewModel.createMemoGame(newTheme)
-        model.shuffle()
+        withAnimation(.easeInOut(duration: 2)) {
+            shuffle()
+        }
     }
     
 }
